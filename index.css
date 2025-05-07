@@ -50,3 +50,32 @@ span{
 /*
     Navigation et Header
 */
+
+header{
+    position: fixed;
+    z-index: 100;
+    background: var(--bg);
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+
+}
+
+header.sticky{
+    border-bottom: .1rem solid rgba(0,0,0,.2);
+}
+
+.logo{
+    font-size: 2.5rem;
+    color: var(--light);
+    font-weight: 800;
+}
+
+.logo san {
+    font-weight: 400;
+}
