@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+/*
+    GLOBAL
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: none;
+}
+
+:root{
+    --red:rgb(231,60,60);
+    --bg:rgb(2,2,2);
+    --bg2:#0a0909;
+    --light:#f1f1f1;
+    --link:rgb(155,40,40);
+}
+
+html{
+    font-size: 62.50%;
+    overflow-x: hidden;
+
+}
+
+body{
+    background: var(--bg);
+    color: var(--light);
+    position: relative;
+
+}
+
+section{
+    padding: 10rem 7% 2rem;
+    min-height: 100vh;
+}
+
+span{
+    color:var(--red)
+}
+
+
+/*
+    Navigation et Header
+*/
