@@ -19,7 +19,7 @@ const scrollActive = ()=>{
         if(top >= offset && top < offset + height){
             linksNav.forEach(links=>{
                 links.classList.remove('active')
-                document.querySelector('.navigation a[href*=${id}]').classList.add('active');
+                document.querySelector(".navigation a[href*=${id}]").classList.add('active');
             })
         }
     } )
